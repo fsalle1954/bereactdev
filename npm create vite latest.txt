@@ -1,0 +1,15 @@
+npm create vite@latest react-crash-2024
+
+const loggedIn = true;
+
+{ loggedIn ? <h1>Hello Member</h1> : <h1>Hello Guest</h1> } 
+
+<div className="bg-blue-500 text-white p-4"></div>
+
+<div class="shadow-lg h-16 w-16 m-4 bg-teal-400 inline-flex"></div>
+
+
+{ loggedIn ? <h1 className="text">Hello Member</h1> : <h1 className="text">Hello Guest</h1> } 
+
+<p style={{ color: 'red', fontSize: '24px' }}> Hello {namea} </p>
+
